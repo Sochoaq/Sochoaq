@@ -4,12 +4,7 @@ Electronics Engineer from the Universidad Nacional de Colombia with a strong int
 My work bridges **hardware and software**, taking data from the physical world to the cloud through reliable communication, monitoring, and automation.  
 
 I enjoy building **edge-to-cloud solutions**, working with Linux-based systems, and exploring **cloud-hosted automation and virtual agents** for monitoring and decision support.  
-I believe in practical engineering: systems that are observable, scalable, and well documented.
-
-🌐 Socials  
-- LinkedIn: https://linkedin.com/in/santiago-alejandro-ochoa-quesada-a07a18288  
-- GitHub: https://github.com/Sochoaq  
-- Email: mailto:santy.alejo4@gmail.com  
+I believe in practical engineering: systems that are observable, scalable, and well documented. 
 
 💻 Tech Stack
 
