@@ -82,11 +82,7 @@ Embedded systems enhanced with AI, fuzzy logic, or symbolic reasoning for real-t
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sochoaq&show_icons=true&theme=transparent)
 
-## 🏆 GitHub Trophies
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Sochoaq&theme=flat&margin-w=10" />
-</p>
 ## 🔝 Pinned Project
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Sochoaq&repo=Robotsumo&theme=transparent)](https://github.com/Sochoaq/Robotsumo)
