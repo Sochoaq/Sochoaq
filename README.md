@@ -8,8 +8,7 @@ I enjoy building **edge-to-cloud solutions**, working with **Linux-based systems
 
 I believe in **practical engineering**: systems that are observable, scalable, and well documented.
 
----
-
+--
 ## 🚀 What I Build
 
 I design and prototype **edge-to-cloud systems** that connect physical devices to cloud platforms.
@@ -21,7 +20,7 @@ Typical problems I enjoy solving:
 - Turning raw sensor data into **actionable dashboards**
 - Automation and decision support on cloud platforms
 
----
+--
 
 ## 🧠 Featured Projects
 
@@ -37,7 +36,7 @@ Real-time digital systems implemented in Verilog for sensing, control, and autom
 Embedded systems enhanced with AI, fuzzy logic, or symbolic reasoning for real-time event detection and classification.  
 **Tech:** Python, TensorFlow, fuzzy logic, Prolog, Raspberry Pi
 
----
+--
 
 ## 🛠 Engineering Philosophy
 
@@ -47,7 +46,7 @@ Embedded systems enhanced with AI, fuzzy logic, or symbolic reasoning for real-t
 - I treat hardware, software, and networking as parts of the same system  
 - I enjoy debugging — that’s where real engineering happens  
 
----
+--
 
 ## 🌱 Currently Exploring
 
@@ -57,7 +56,7 @@ Embedded systems enhanced with AI, fuzzy logic, or symbolic reasoning for real-t
 - Digital communication systems and RF fundamentals  
 - Applying ML models at the edge for event detection  
 
----
+--
 
 ## 💻 Tech Stack
 
@@ -77,7 +76,7 @@ Pandas · NumPy · Matplotlib · TensorFlow · scikit-learn
 ### **Tools & Platforms**
 Power BI · KiCad · LTspice · Cisco Packet Tracer · Visual Studio Code · Notion · Trello
 
----
+--
 
 ## 📊 GitHub Stats
 
@@ -91,14 +90,5 @@ Power BI · KiCad · LTspice · Cisco Packet Tracer · Visual Studio Code · Not
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Sochoaq&repo=Robotsumo&theme=transparent)](https://github.com/Sochoaq/Robotsumo)
 
----
-
-## 📫 Let’s Connect
-
-I’m open to **collaboration, research projects, and junior roles** related to:
-
-**IoT · Cloud Systems · Embedded Systems · Telecommunications**
-
-- 📧 Email: santy.alejo4@gmail.com  
-- 💼 LinkedIn: https://linkedin.com/in/santiago-alejandro-ochoa-quesada-a07a18288  
+ 
 
