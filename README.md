@@ -61,20 +61,21 @@ Embedded systems enhanced with AI, fuzzy logic, or symbolic reasoning for real-t
 ## 💻 Tech Stack
 
 ### **Edge & Embedded Systems**
-ESP32 · Raspberry Pi · FPGA · PSoC 5LP · Arduino · Zephyr RTOS · Sensor integration
+![ESP32](https://img.shields.io/badge/Espressif-ESP32-323333?style=for-the-badge&logo=espressif&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white) ![FPGA](https://img.shields.io/badge/FPGA-Hardware-orange?style=for-the-badge) ![PSoC 5LP](https://img.shields.io/badge/PSoC%205LP-Cypress-green?style=for-the-badge) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Zephyr RTOS](https://img.shields.io/badge/Zephyr-373737?style=for-the-badge&logo=zephyr&logoColor=white) ![Sensor Integration](https://img.shields.io/badge/Sensor%20Integration-IoT-lightgrey?style=for-the-badge)
 
 ### **Communications & Networking**
-LoRa (SX127x) · MQTT · HTTP · TCP/IP · DNS · Telemetry systems
+![LoRa](https://img.shields.io/badge/LoRa-IoT-blue?style=for-the-badge) ![MQTT](https://img.shields.io/badge/MQTT-3C1D64?style=for-the-badge&logo=mqtt&logoColor=white) ![HTTP](https://img.shields.io/badge/HTTP-Protocol-green?style=for-the-badge) ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-Networking-blue?style=for-the-badge) ![DNS](https://img.shields.io/badge/DNS-Networking-blue?style=for-the-badge) ![Telemetry](https://img.shields.io/badge/Telemetry-Systems-orange?style=for-the-badge)
 
 ### **Cloud & Systems**
-AWS (EC2, S3, IAM – fundamentals) · Linux · Git · GitHub
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ### **Programming & Data**
-Python · C · C++ · SQL · MATLAB · JavaScript (basic)  
-Pandas · NumPy · Matplotlib · TensorFlow · scikit-learn
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-Database-blue?style=for-the-badge) ![MATLAB](https://img.shields.io/badge/MATLAB-MathWorks-orange?style=for-the-badge) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ### **Tools & Platforms**
-Power BI · KiCad · LTspice · Cisco Packet Tracer · Visual Studio Code · Notion · Trello
+![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![KiCad](https://img.shields.io/badge/KiCad-A6A6A6?style=for-the-badge&logo=kicad&logoColor=white) ![LTspice](https://img.shields.io/badge/LTspice-Simulation-red?style=for-the-badge) ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco%20Packet%20Tracer-Networking-blue?style=for-the-badge) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
 
 
 ## 📊 GitHub Stats
