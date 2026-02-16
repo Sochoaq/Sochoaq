@@ -80,7 +80,8 @@ Embedded systems enhanced with AI, fuzzy logic, or symbolic reasoning for real-t
 
 ## 📊 GitHub Stats
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/apiSochoaqanuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sochoaq&show_icons=true&theme=transparent)](https://github.com/Sochoaq)
+
 
 
 ## 🔝 Pinned Project
