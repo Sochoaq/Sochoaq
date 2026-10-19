@@ -59,7 +59,7 @@ My engineering focus spans **Edge-to-Cloud architectures**: from real-time high-
 ###  [DPS Analyzer 4.2 - Industrial Metrology & Edge Signal Suite](https://github.com/Sochoaq/DPS)
 > **Full-stack telemetry and diagnostic software for high-voltage surge arresters (DPS / ZnO).**
 - Processes continuous 50 kHz leakage current signals from field clamps via Seeed XIAO ESP32-S3.
-- Implements harmonic decomposition (FFT H1–H5), phase angle extraction ($\theta$), and analytical aging index models ($HI_{\%}$) compliant with **IEEE C62.11** and **IEC 60099-5**.
+- Implements harmonic decomposition (FFT H1–H5), phase angle extraction (θ), and analytical aging index models (Health Index - HI %) compliant with **IEEE C62.11** and **IEC 60099-5**.
 - **DevOps & MLOps:** Built with automated **Pytest** verification suites, **Docker** containerization, and automated **GitHub Actions CI/CD** cloud pipelines.
 - **Tech Stack:** `Python 3.11`, `PyQt6`, `PyQtGraph`, `NumPy`, `SciPy`, `Docker`, `GitHub Actions`, `Pytest`.
 
