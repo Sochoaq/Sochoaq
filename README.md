@@ -1,92 +1,96 @@
-# 💫 About Me
+# Hi, I'm Santiago Alejandro Ochoa Quesada 👋
+### Electronics Engineer | Edge-to-Cloud Telemetry, Data Pipelines & Cloud / DevOps
 
-Hi, I'm **Santiago Alejandro**, an **Electronics Engineer** from the **National University of Colombia** with a strong interest in **Cloud Computing (AWS)**, **IoT–Cloud integration**, and **intelligent systems**.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santiago-ochoa-quesada/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Sochoaq)
+[![Email](https://img.shields.io/badge/Email-sochoaq@unal.edu.co-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sochoaq@unal.edu.co)
+[![Location](https://img.shields.io/badge/Location-Colombia-blue?style=flat)](#)
 
-My work focuses on bridging **hardware, communications, and software**, taking data from the physical world to the cloud through reliable telemetry, networking, and automation.
+---
 
-I enjoy building **edge-to-cloud solutions**, working with **Linux-based systems**, and exploring **cloud-hosted automation and intelligent agents** for monitoring and decision support.
+## 💫 About Me
 
-I believe in **practical engineering**: systems that are observable, scalable, and well documented.
+I am an **Electronics Engineer** from the **National University of Colombia (UNAL)** specializing in bridging the gap between physical sensor hardware, robust telemetry, and cloud data systems. 
 
+My engineering focus spans **Edge-to-Cloud architectures**: from real-time high-speed data acquisition (50 kHz sampling, DSP, FFT) and embedded firmware, to containerized Python engines, automated CI/CD pipelines, and cloud-hosted data workflows.
 
-## 🚀 What I Build
+- 🔭 **Core Strengths:** Real-time signal processing, automated data validation pipelines, embedded firmware (ESP32, RTOS), containerization with Docker, and CI/CD with GitHub Actions.
+- ☁️ **Cloud & DevOps Journey:** Hands-on practice with AWS (EC2, S3, IAM, Lambda), Linux systems administration, and automated testing workflows.
+- 🎯 **Engineering Principle:** Observability first — *"If you cannot measure it accurately, you cannot optimize it."*
 
-I design and prototype **edge-to-cloud systems** that connect physical devices to cloud platforms.
-
-Typical problems I enjoy solving:
-- Reliable telemetry from constrained devices
-- Long-range communication links (LoRa, custom RF)
-- Device-to-cloud data pipelines using MQTT/HTTP
-- Turning raw sensor data into **actionable dashboards**
-- Automation and decision support on cloud platforms
+---
 
 ## 💻 Tech Stack
 
-### **Edge & Embedded Systems**
-![ESP32](https://img.shields.io/badge/Espressif-ESP32-323333?style=for-the-badge&logo=espressif&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white) ![FPGA](https://img.shields.io/badge/FPGA-Hardware-orange?style=for-the-badge) ![PSoC 5LP](https://img.shields.io/badge/PSoC%205LP-Cypress-green?style=for-the-badge) ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Zephyr RTOS](https://img.shields.io/badge/Zephyr-373737?style=for-the-badge&logo=zephyr&logoColor=white) ![Sensor Integration](https://img.shields.io/badge/Sensor%20Integration-IoT-lightgrey?style=for-the-badge)
+### **Cloud, DevOps & Containers**
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-### **Communications & Networking**
-![LoRa](https://img.shields.io/badge/LoRa-IoT-blue?style=for-the-badge) ![MQTT](https://img.shields.io/badge/MQTT-3C1D64?style=for-the-badge&logo=mqtt&logoColor=white) ![HTTP](https://img.shields.io/badge/HTTP-Protocol-green?style=for-the-badge) ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-Networking-blue?style=for-the-badge) ![DNS](https://img.shields.io/badge/DNS-Networking-blue?style=for-the-badge) ![Telemetry](https://img.shields.io/badge/Telemetry-Systems-orange?style=for-the-badge)
+### **Data Engineering & Programming**
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-Database-blue?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pytest](https://img.shields.io/badge/pytest-%230A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white)
+![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-### **Cloud & Systems**
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+### **Applied AI & Signal Processing**
+![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-MathWorks-orange?style=for-the-badge)
 
-### **Programming & Data**
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-Database-blue?style=for-the-badge) ![MATLAB](https://img.shields.io/badge/MATLAB-MathWorks-orange?style=for-the-badge) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+### **Edge, IoT & Embedded Systems**
+![ESP32](https://img.shields.io/badge/Espressif-ESP32-323333?style=for-the-badge&logo=espressif&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-3C1D64?style=for-the-badge&logo=mqtt&logoColor=white)
+![LoRa](https://img.shields.io/badge/LoRa-IoT-blue?style=for-the-badge)
+![KiCad](https://img.shields.io/badge/KiCad-A6A6A6?style=for-the-badge&logo=kicad&logoColor=white)
 
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+---
 
-### **Tools & Platforms**
-![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![KiCad](https://img.shields.io/badge/KiCad-A6A6A6?style=for-the-badge&logo=kicad&logoColor=white) ![LTspice](https://img.shields.io/badge/LTspice-Simulation-red?style=for-the-badge) ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco%20Packet%20Tracer-Networking-blue?style=for-the-badge) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+## 🚀 Featured Engineering Projects
 
+### ⚡ [DPS Analyzer 4.2 - Industrial Metrology & Edge Signal Suite](https://github.com/Sochoaq/DPS)
+> **Full-stack telemetry and diagnostic software for high-voltage surge arresters (DPS / ZnO).**
+- Processes continuous 50 kHz leakage current signals from field clamps via Seeed XIAO ESP32-S3.
+- Implements harmonic decomposition (FFT H1–H5), phase angle extraction ($\theta$), and analytical aging index models ($HI_{\%}$) compliant with **IEEE C62.11** and **IEC 60099-5**.
+- **DevOps & MLOps:** Built with automated **Pytest** verification suites, **Docker** containerization, and automated **GitHub Actions CI/CD** cloud pipelines.
+- **Tech Stack:** `Python 3.11`, `PyQt6`, `PyQtGraph`, `NumPy`, `SciPy`, `Docker`, `GitHub Actions`, `Pytest`.
 
-## 🧠 Featured Projects
+---
 
-🔹 **Edge-to-Cloud IoT Monitoring Systems**  
-End-to-end telemetry systems using embedded devices, long-range wireless links, cloud ingestion, and visualization dashboards.  
-**Tech:** ESP32, LoRa (SX127x), MQTT, Linux, Python, Power BI
+### 🗄️ [Database-System - Logistics & Data Management](https://github.com/Sochoaq/Database-System)
+> **Relational data management and logistics software built with Python and SQL.**
+- Developed for race coordination and event telemetry management (Vuelta a Colombia).
+- Implements relational data schemas in SQLite, transactional CRUD operations, and responsive desktop UI.
+- **Tech Stack:** `Python`, `PyQt5`, `SQLite`, `SQL`.
 
-🔹 **FPGA & Embedded Digital Systems**  
-Real-time digital systems implemented in Verilog for sensing, control, and automation.  
-**Tech:** FPGA, Verilog, FSM design, Linux
+---
 
-🔹 **Intelligent Embedded Systems**  
-Embedded systems enhanced with AI, fuzzy logic, or symbolic reasoning for real-time event detection and classification.  
-**Tech:** Python, TensorFlow, fuzzy logic, Prolog, Raspberry Pi
+### 📡 [light-well - Circadian Lighting & Multispectral Wearable](https://github.com/Sochoaq/light-well)
+> **IoT wearable system for ambient and spectral light telemetry.**
+- Integrates ESP32-C3 Mini, AS7262 multispectral sensor, and BH1750 lux meter over I2C/Wi-Fi.
+- Real-time data telemetry for circadian rhythm analysis and lighting automation.
+- **Tech Stack:** `C++`, `ESP32-C3`, `Wi-Fi`, `I2C`, `Embedded C`.
 
+---
 
+## 📊 GitHub Analytics
 
-## 🛠 Engineering Philosophy
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sochoaq&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sochoaq&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+</div>
 
-- I prioritize **observability**: if you can’t measure it, you can’t improve it  
-- I prefer **simple and robust architectures** before complex ones  
-- I document systems so others (and future me) can understand them  
-- I treat hardware, software, and networking as parts of the same system  
-- I enjoy debugging — that’s where real engineering happens  
+---
 
-
-
-## 🌱 Currently Exploring
-
-- AWS services for IoT backends and automation  
-- Secure device-to-cloud communication (TLS, certificates)  
-- Linux-based embedded systems  
-- Digital communication systems and RF fundamentals  
-- Applying ML models at the edge for event detection  
-
-
-
-
-
-## 📊 GitHub Stats
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sochoaq&show_icons=true&theme=transparent)](https://github.com/Sochoaq)
-
-
-
-## 🔝 Pinned Project
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Sochoaq&repo=Robotsumo&theme=transparent)](https://github.com/Sochoaq/Robotsumo)
-
- 
-
+## 📫 Connect With Me
+- 💼 **LinkedIn:** [linkedin.com/in/santiago-ochoa-quesada](https://www.linkedin.com/in/santiago-ochoa-quesada/)
+- 📧 **Institutional Email:** [sochoaq@unal.edu.co](mailto:sochoaq@unal.edu.co)
+- 🐙 **GitHub:** [@Sochoaq](https://github.com/Sochoaq)
