@@ -14,9 +14,9 @@ I am an **Electronics Engineer** from the **National University of Colombia (UNA
 
 My engineering focus spans **Edge-to-Cloud architectures**: from real-time high-speed data acquisition (50 kHz sampling, DSP, FFT) and embedded firmware, to containerized Python engines, automated CI/CD pipelines, and cloud-hosted data workflows.
 
-- 🔭 **Core Strengths:** Real-time signal processing, automated data validation pipelines, embedded firmware (ESP32, RTOS), containerization with Docker, and CI/CD with GitHub Actions.
-- ☁️ **Cloud & DevOps Journey:** Hands-on practice with AWS (EC2, S3, IAM, Lambda), Linux systems administration, and automated testing workflows.
-- 🎯 **Engineering Principle:** Observability first — *"If you cannot measure it accurately, you cannot optimize it."*
+-  **Core Strengths:** Real-time signal processing, automated data validation pipelines, embedded firmware (ESP32, RTOS), containerization with Docker, and CI/CD with GitHub Actions.
+-  **Cloud & DevOps Journey:** Hands-on practice with AWS (EC2, S3, IAM, Lambda), Linux systems administration, and automated testing workflows.
+-  **Engineering Principle:** Observability first — *"If you cannot measure it accurately, you cannot optimize it."*
 
 ---
 
@@ -56,7 +56,7 @@ My engineering focus spans **Edge-to-Cloud architectures**: from real-time high-
 
 ## 🚀 Featured Engineering Projects
 
-### ⚡ [DPS Analyzer 4.2 - Industrial Metrology & Edge Signal Suite](https://github.com/Sochoaq/DPS)
+###  [DPS Analyzer 4.2 - Industrial Metrology & Edge Signal Suite](https://github.com/Sochoaq/DPS)
 > **Full-stack telemetry and diagnostic software for high-voltage surge arresters (DPS / ZnO).**
 - Processes continuous 50 kHz leakage current signals from field clamps via Seeed XIAO ESP32-S3.
 - Implements harmonic decomposition (FFT H1–H5), phase angle extraction ($\theta$), and analytical aging index models ($HI_{\%}$) compliant with **IEEE C62.11** and **IEC 60099-5**.
@@ -65,7 +65,7 @@ My engineering focus spans **Edge-to-Cloud architectures**: from real-time high-
 
 ---
 
-### 🗄️ [Database-System - Logistics & Data Management](https://github.com/Sochoaq/Database-System)
+###  [Database-System - Logistics & Data Management](https://github.com/Sochoaq/Database-System)
 > **Relational data management and logistics software built with Python and SQL.**
 - Developed for race coordination and event telemetry management (Vuelta a Colombia).
 - Implements relational data schemas in SQLite, transactional CRUD operations, and responsive desktop UI.
@@ -73,7 +73,7 @@ My engineering focus spans **Edge-to-Cloud architectures**: from real-time high-
 
 ---
 
-### 📡 [light-well - Circadian Lighting & Multispectral Wearable](https://github.com/Sochoaq/light-well)
+###  [light-well - Circadian Lighting & Multispectral Wearable](https://github.com/Sochoaq/light-well)
 > **IoT wearable system for ambient and spectral light telemetry.**
 - Integrates ESP32-C3 Mini, AS7262 multispectral sensor, and BH1750 lux meter over I2C/Wi-Fi.
 - Real-time data telemetry for circadian rhythm analysis and lighting automation.
