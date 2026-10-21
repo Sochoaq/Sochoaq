@@ -1,11 +1,11 @@
 {
-  "title": "AI ENGINEERING // CORE MATRIX",
+  "title": "AI PROJECT ENGINEERING // RADAR",
   "axes": [
-    { "label": "Deep Learning & PyTorch", "value": 92 },
-    { "label": "Edge AI & TinyML", "value": 94 },
-    { "label": "Signal DSP & ML Pipelines", "value": 96 },
-    { "label": "MLOps & CI/CD", "value": 88 },
-    { "label": "Cloud AI (AWS / Docker)", "value": 85 },
-    { "label": "Data Systems & Python", "value": 95 }
+    { "label": "AI Project Delivery", "value": 95 },
+    { "label": "Deep Learning & ML", "value": 92 },
+    { "label": "MLOps & Cloud (AWS)", "value": 90 },
+    { "label": "Edge AI & Systems", "value": 88 },
+    { "label": "Data Architecture", "value": 94 },
+    { "label": "Quality & Verification", "value": 92 }
   ]
 }

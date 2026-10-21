@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" width="960" height="390" role="img" aria-labelledby="title desc">
-  <title id="title">Santiago Alejandro Ochoa Quesada — AI Engineer</title>
-  <desc id="desc">AI Engineering terminal card showing Santiago Ochoa's background, Edge AI architecture, deep learning telemetry, and on-device inference.</desc>
+  <title id="title">Santiago Alejandro Ochoa Quesada — Project Engineer | AI Engineering</title>
+  <desc id="desc">Project Engineer terminal card showcasing Santiago Ochoa's background, AI project leadership, system architecture, and end-to-end delivery.</desc>
   <defs>
     <linearGradient id="ai-border" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#58a6ff"/>
@@ -28,67 +28,63 @@
   <circle cx="32" cy="28" r="5" fill="#f85149" opacity="0.85"/>
   <circle cx="48" cy="28" r="5" fill="#d29922" opacity="0.85"/>
   <circle cx="64" cy="28" r="5" fill="#58a6ff" opacity="0.95" filter="url(#blue-glow)"/>
-  <text x="88" y="33" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">sochoaq@ai-cluster:~$ ./inference.py  ·  model: physical_ai_50kHz  ·  [OPTIMAL]</text>
+  <text x="88" y="33" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">sochoaq@project-engine:~$ ./project_overview.py  ·  focus: AI_Engineering  ·  [OPTIMAL]</text>
   <path d="M16 46H944" stroke="#21262d" stroke-width="1.2"/>
 
-  <!-- Left Panel: AI Engineer Profile -->
+  <!-- Left Panel: Profile / Capabilities -->
   <rect x="22" y="60" width="608" height="308" rx="8" fill="#161b22" stroke="#1f6feb" stroke-width="1.2"/>
   
-  <text x="42" y="92" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" filter="url(#blue-glow)">❯ whoami --role ai-engineer</text>
+  <text x="42" y="92" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" filter="url(#blue-glow)">❯ whoami --role project-engineer</text>
   <text x="42" y="120" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700">santiago_alejandro_ochoa</text>
   <text x="286" y="120" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">—</text>
-  <text x="306" y="120" fill="#a5d6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="600">AI &amp; Edge Intelligence Engineer</text>
+  <text x="306" y="120" fill="#a5d6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="600">Project Engineer | AI Engineering</text>
 
   <path d="M42 138H610" stroke="#30363d" stroke-width="1"/>
 
   <text x="42" y="164" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">origin:</text>
   <text x="140" y="164" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Universidad Nacional de Colombia (UNAL)  🇨🇴</text>
 
-  <text x="42" y="190" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">focus:</text>
-  <text x="140" y="190" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Deep Learning, Physical AI, Edge TinyML &amp; Real-Time DSP</text>
+  <text x="42" y="190" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">profile:</text>
+  <text x="140" y="190" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Ingeniero de Proyectos enfocado en Inteligencia Artificial (AI Engineering)</text>
 
-  <text x="42" y="216" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">axiom:</text>
-  <text x="140" y="216" fill="#a5d6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-style="italic">"From physical raw telemetry to robust deep learning inference."</text>
+  <text x="42" y="216" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">scope:</text>
+  <text x="140" y="216" fill="#a5d6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-style="italic">"Liderando el ciclo de vida de proyectos de IA: desde el diseño hasta el despliegue."</text>
 
-  <text x="42" y="254" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" filter="url(#blue-glow)">❯ ls --classified ai_architecture/</text>
+  <text x="42" y="254" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" filter="url(#blue-glow)">❯ ls --classified project_capabilities/</text>
   
-  <text x="42" y="284" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">deep_learning/</text>
-  <text x="195" y="284" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">PyTorch · TensorFlow · Time-Series Transformers · SciPy DSP</text>
+  <text x="42" y="284" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">ai_project_management/</text>
+  <text x="235" y="284" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Project Lifecycle · Architecture Design · Systems Integration</text>
 
-  <text x="42" y="310" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">edge_tinyml/</text>
-  <text x="195" y="310" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">ESP32-S3 Vector AI · On-Device Inference · C/C++ · RTOS</text>
+  <text x="42" y="310" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">ai_models_data/</text>
+  <text x="235" y="310" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">PyTorch · Deep Learning · Predictive Analytics · Python Data Stack</text>
 
-  <text x="42" y="336" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">mlops_cloud/</text>
-  <text x="195" y="336" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Docker · GitHub Actions CI/CD · AWS Cloud AI · Pytest · APIs</text>
+  <text x="42" y="336" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">mlops_deployment/</text>
+  <text x="235" y="336" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">AWS Cloud AI · Docker · CI/CD Automation · Pytest Verification</text>
 
-  <!-- Right Panel: AI Neural Signal Inference -->
+  <!-- Right Panel: AI Project Execution Pipeline -->
   <rect x="646" y="60" width="292" height="308" rx="8" fill="#161b22" stroke="#1f6feb" stroke-width="1.2"/>
-  <text x="664" y="92" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" filter="url(#blue-glow)">$ run_inference --model dps_net</text>
-  <text x="664" y="112" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">50 kHz SPECTRAL DSP + RESIDUAL AI</text>
+  <text x="664" y="92" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" filter="url(#blue-glow)">$ project_lifecycle --status</text>
+  <text x="664" y="112" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">END-TO-END AI PROJECT EXECUTION</text>
 
-  <!-- AI Inference Wave Grid -->
+  <!-- Execution Pipeline Matrix Box -->
   <rect x="662" y="124" width="260" height="152" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-  <line x1="662" y1="200" x2="922" y2="200" stroke="#172d47" stroke-width="1" stroke-dasharray="3 3"/>
-  <line x1="792" y1="124" x2="792" y2="276" stroke="#172d47" stroke-width="1" stroke-dasharray="3 3"/>
+  
+  <!-- Project Phases Visual -->
+  <text x="672" y="146" fill="#58a6ff" font-family="ui-monospace, monospace" font-size="10" font-weight="700">[PHASE 1] SCOPING &amp; DATA ARCH</text>
+  <text x="672" y="160" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="9">✓ Requirements, Schemas &amp; Data Ingestion</text>
 
-  <!-- AI Latent Embedding Tokens -->
-  <g opacity="0.38" font-family="ui-monospace, monospace" font-size="9" fill="#58a6ff">
-    <text x="670" y="142">LATENT_DIM: 128</text>
-    <text x="670" y="156">FFT_H1: 1.000</text>
-    <text x="670" y="170">FFT_H3: 0.084</text>
-    <text x="840" y="142">LOSS: 0.0012</text>
-    <text x="840" y="156">F1: 99.4%</text>
-    <text x="840" y="170">VAL_ACC: 0.98</text>
-  </g>
+  <text x="672" y="184" fill="#58a6ff" font-family="ui-monospace, monospace" font-size="10" font-weight="700">[PHASE 2] AI / ML MODELING</text>
+  <text x="672" y="198" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="9">✓ PyTorch, Deep Learning &amp; Optimization</text>
 
-  <!-- AI Feature Waveform -->
-  <path d="M 662 200 Q 682 142, 702 174 T 742 226 T 782 150 T 822 236 T 862 162 T 902 216 T 922 200" 
-        fill="none" stroke="#58a6ff" stroke-width="2.4" filter="url(#blue-glow)"/>
-  <path d="M 662 200 Q 682 142, 702 174 T 742 226 T 782 150 T 822 236 T 862 162 T 902 216 T 922 200" 
-        fill="none" stroke="#a5d6ff" stroke-width="1"/>
+  <text x="672" y="222" fill="#58a6ff" font-family="ui-monospace, monospace" font-size="10" font-weight="700">[PHASE 3] MLOPS &amp; DEPLOYMENT</text>
+  <text x="672" y="236" fill="#79c0ff" font-family="ui-monospace, monospace" font-size="9">✓ Docker, CI/CD, Cloud &amp; Quality QA</text>
 
-  <!-- AI Inference Metrics -->
-  <text x="664" y="298" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">INFERENCE LATENCY: <tspan fill="#58a6ff" font-weight="700">2.4 ms [EDGE]</tspan></text>
-  <text x="664" y="320" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">DEGRADATION PREDICTION: <tspan fill="#58a6ff" font-weight="700">HEALTHY (HI 98.4%)</tspan></text>
-  <text x="664" y="342" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">> model status: online // validated</text>
+  <!-- Progress Bar Line -->
+  <rect x="672" y="252" width="240" height="6" rx="3" fill="#21262d"/>
+  <rect x="672" y="252" width="220" height="6" rx="3" fill="#58a6ff" filter="url(#blue-glow)"/>
+
+  <!-- Metrics -->
+  <text x="664" y="298" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">DELIVERY METRIC: <tspan fill="#58a6ff" font-weight="700">ON SCHEDULE [100%]</tspan></text>
+  <text x="664" y="320" fill="#79c0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">MODEL RELIABILITY: <tspan fill="#58a6ff" font-weight="700">VERIFIED (QA PASS)</tspan></text>
+  <text x="664" y="342" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">> execution: production ready // nominal</text>
 </svg>
