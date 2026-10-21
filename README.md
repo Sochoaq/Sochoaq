@@ -1,6 +1,17 @@
 <div align="center">
 
-<!-- PROJECT ENGINEER & AI ENGINEERING BLUE TYPING BANNER -->
+<!-- ANIMATED PARTICLE PORTRAIT BANNER -->
+<a href="https://github.com/Sochoaq">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+    <img src="assets/banner-dark.svg" width="960" alt="Banner animado de Santiago Ochoa — Ingeniero de Proyectos | AI Engineering">
+  </picture>
+</a>
+
+<br>
+
+<!-- DYNAMIC TYPING BANNER -->
 <a href="https://github.com/Sochoaq">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=26&amp;duration=2600&amp;pause=900&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=940&amp;lines=Santiago+Alejandro+%E2%80%94+Ingeniero+de+Proyectos+%7C+AI+Engineering;Liderazgo+y+Gesti%C3%B3n+de+Proyectos+de+Inteligencia+Artificial;End-to-End+AI+Solutions+%E2%80%A2+Deep+Learning+%E2%80%A2+MLOps+%E2%80%A2+Cloud;PyTorch+%E2%80%A2+Python+%E2%80%A2+AWS+%E2%80%A2+Docker+%E2%80%A2+CI%2FCD+Pipelines" alt="Santiago Ochoa - Ingeniero de Proyectos | AI Engineering">
 </a>
