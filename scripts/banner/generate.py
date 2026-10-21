@@ -168,10 +168,7 @@ def floyd_steinberg(gray: np.ndarray) -> np.ndarray:
 
 def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
     source = Image.open(SOURCE).convert("RGBA")
-    w, h = source.size
-    crop_w = int(h * (300 / 340))
-    left = max(0, (w - crop_w) // 2)
-    crop = source.crop((left, 0, left + crop_w, h)).resize((300, 340), Image.Resampling.LANCZOS)
+    crop = source.resize((300, 340), Image.Resampling.LANCZOS)
     alpha = np.asarray(crop.getchannel("A"), dtype=np.float32) / 255.0
 
     if theme == "dark":
@@ -195,8 +192,7 @@ def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
 
     bits = floyd_steinberg(np.asarray(prepared))
     active = bits if select_lit else ~bits
-    if theme == "dark" and alpha.min() < 0.9:
-        active &= alpha > 0.08
+    active &= alpha > 0.08
 
     ys, xs = np.where(active)
     if len(xs) == 0:
