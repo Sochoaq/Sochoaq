@@ -1,96 +1,94 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" width="960" height="390" role="img" aria-labelledby="title desc">
-  <title id="title">Santiago Alejandro Ochoa Quesada — Electronics &amp; DevOps Engineer</title>
-  <desc id="desc">Matrix terminal card displaying Santiago Ochoa's mission, background, edge-to-cloud architecture, and real-time signal telemetry.</desc>
+  <title id="title">Santiago Alejandro Ochoa Quesada — AI Engineer</title>
+  <desc id="desc">AI Engineering terminal card showing Santiago Ochoa's background, Edge AI architecture, deep learning telemetry, and on-device inference.</desc>
   <defs>
-    <linearGradient id="matrix-border" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#00ff41"/>
-      <stop offset="50%" stop-color="#059669"/>
-      <stop offset="100%" stop-color="#003b00"/>
+    <linearGradient id="ai-border" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="50%" stop-color="#238636"/>
+      <stop offset="100%" stop-color="#194a26"/>
     </linearGradient>
     <filter id="matrix-glow" x="-20%" y="-30%" width="140%" height="160%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="100" y2="0" stroke="#00ff41" stroke-width="0.3" opacity="0.12"/>
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#3fb950" stroke-width="0.3" opacity="0.1"/>
     </pattern>
   </defs>
 
-  <!-- Main Background Container -->
-  <rect width="960" height="390" rx="14" fill="#060a07"/>
-  <rect x="6" y="6" width="948" height="378" rx="10" fill="none" stroke="url(#matrix-border)" stroke-width="1.8"/>
-  <rect width="960" height="390" rx="14" fill="url(#scanlines)" pointer-events="none"/>
+  <!-- GitHub Native Dark Canvas Seamless Background -->
+  <rect width="960" height="390" rx="12" fill="#0d1117"/>
+  <rect x="5" y="5" width="950" height="380" rx="10" fill="none" stroke="url(#ai-border)" stroke-width="1.6"/>
+  <rect width="960" height="390" rx="12" fill="url(#scanlines)" pointer-events="none"/>
 
   <!-- Window Header Bar -->
-  <circle cx="32" cy="30" r="5.5" fill="#ef4444" opacity="0.85"/>
-  <circle cx="50" cy="30" r="5.5" fill="#eab308" opacity="0.85"/>
-  <circle cx="68" cy="30" r="5.5" fill="#00ff41" opacity="0.95" filter="url(#matrix-glow)"/>
-  <text x="96" y="35" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">sochoaq@edge-node:~$ ./whoami.sh  ·  telemetry: 50kHz_active  ·  [CONNECTED]</text>
-  <path d="M20 48H940" stroke="#143823" stroke-width="1.2"/>
+  <circle cx="32" cy="28" r="5" fill="#f85149" opacity="0.85"/>
+  <circle cx="48" cy="28" r="5" fill="#d29922" opacity="0.85"/>
+  <circle cx="64" cy="28" r="5" fill="#3fb950" opacity="0.95" filter="url(#matrix-glow)"/>
+  <text x="88" y="33" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">sochoaq@ai-cluster:~$ ./inference.py  ·  model: physical_ai_50kHz  ·  [OPTIMAL]</text>
+  <path d="M16 46H944" stroke="#21262d" stroke-width="1.2"/>
 
-  <!-- Left Panel: Profile / Capabilities -->
-  <rect x="24" y="64" width="606" height="300" rx="8" fill="#0a120c" stroke="#164e2e" stroke-width="1.2"/>
+  <!-- Left Panel: AI Engineer Profile -->
+  <rect x="22" y="60" width="608" height="308" rx="8" fill="#161b22" stroke="#238636" stroke-width="1.2"/>
   
-  <text x="44" y="96" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" filter="url(#matrix-glow)">❯ whoami</text>
-  <text x="44" y="124" fill="#f0fdf4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700">santiago_alejandro_ochoa</text>
-  <text x="290" y="124" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">—</text>
-  <text x="310" y="124" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">Electronics &amp; DevOps Engineer</text>
+  <text x="42" y="92" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="700" filter="url(#matrix-glow)">❯ whoami --role ai-engineer</text>
+  <text x="42" y="120" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700">santiago_alejandro_ochoa</text>
+  <text x="286" y="120" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">—</text>
+  <text x="306" y="120" fill="#56d364" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="600">AI &amp; Edge Intelligence Engineer</text>
 
-  <path d="M44 142H610" stroke="#163824" stroke-width="1"/>
+  <path d="M42 138H610" stroke="#30363d" stroke-width="1"/>
 
-  <text x="44" y="168" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">origin:</text>
-  <text x="140" y="168" fill="#bbf7d0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Universidad Nacional de Colombia (UNAL)  🇨🇴</text>
+  <text x="42" y="164" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">origin:</text>
+  <text x="140" y="164" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Universidad Nacional de Colombia (UNAL)  🇨🇴</text>
 
-  <text x="44" y="194" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">mission:</text>
-  <text x="140" y="194" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Edge-to-Cloud Telemetry, Signal Metrology &amp; DevOps Pipelines</text>
+  <text x="42" y="190" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">focus:</text>
+  <text x="140" y="190" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Deep Learning, Physical AI, Edge TinyML &amp; Real-Time DSP</text>
 
-  <text x="44" y="220" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">axiom:</text>
-  <text x="140" y="220" fill="#a7f3d0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-style="italic">"If you cannot measure it accurately, you cannot optimize it."</text>
+  <text x="42" y="216" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">axiom:</text>
+  <text x="140" y="216" fill="#aff5b4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-style="italic">"From physical raw telemetry to robust deep learning inference."</text>
 
-  <text x="44" y="258" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" filter="url(#matrix-glow)">❯ ls --classified capabilities/</text>
+  <text x="42" y="254" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" filter="url(#matrix-glow)">❯ ls --classified ai_architecture/</text>
   
-  <text x="44" y="288" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">edge_firmware/</text>
-  <text x="195" y="288" fill="#dcfce7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">ESP32 · C/C++ · 50kHz ADC · FFT (H1–H5) · Verilog · KiCad</text>
+  <text x="42" y="284" fill="#56d364" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">deep_learning/</text>
+  <text x="195" y="284" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">PyTorch · TensorFlow · Time-Series Transformers · SciPy DSP</text>
 
-  <text x="44" y="314" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">cloud_devops/</text>
-  <text x="195" y="314" fill="#dcfce7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">AWS · Docker · GitHub Actions CI/CD · Linux SysAdmin</text>
+  <text x="42" y="310" fill="#56d364" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">edge_tinyml/</text>
+  <text x="195" y="310" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">ESP32-S3 Vector AI · On-Device Inference · C/C++ · RTOS</text>
 
-  <text x="44" y="340" fill="#22c55e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">data_software/</text>
-  <text x="195" y="340" fill="#dcfce7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Python · PyQt6 · NumPy · SciPy · Pytest · SQL Telemetry</text>
+  <text x="42" y="336" fill="#56d364" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600">mlops_cloud/</text>
+  <text x="195" y="336" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Docker · GitHub Actions CI/CD · AWS Cloud AI · Pytest · APIs</text>
 
-  <!-- Right Panel: Matrix Telemetry Oscilloscope -->
-  <rect x="644" y="64" width="292" height="300" rx="8" fill="#0a120c" stroke="#164e2e" stroke-width="1.2"/>
-  <text x="662" y="96" fill="#00ff41" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" filter="url(#matrix-glow)">$ dps_telemetry --stream</text>
-  <text x="662" y="116" fill="#15803d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">50 kHz ADC / FFT DECOMPOSITION</text>
+  <!-- Right Panel: AI Neural Signal Inference -->
+  <rect x="646" y="60" width="292" height="308" rx="8" fill="#161b22" stroke="#238636" stroke-width="1.2"/>
+  <text x="664" y="92" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700" filter="url(#matrix-glow)">$ run_inference --model dps_net</text>
+  <text x="664" y="112" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">50 kHz SPECTRAL DSP + RESIDUAL AI</text>
 
-  <!-- Oscilloscope Grid -->
-  <rect x="660" y="128" width="260" height="150" fill="#050a06" stroke="#143823" stroke-width="1"/>
-  <line x1="660" y1="203" x2="920" y2="203" stroke="#143823" stroke-width="1" stroke-dasharray="3 3"/>
-  <line x1="790" y1="128" x2="790" y2="278" stroke="#143823" stroke-width="1" stroke-dasharray="3 3"/>
-  <line x1="725" y1="128" x2="725" y2="278" stroke="#0e2617" stroke-width="1" stroke-dasharray="2 2"/>
-  <line x1="855" y1="128" x2="855" y2="278" stroke="#0e2617" stroke-width="1" stroke-dasharray="2 2"/>
+  <!-- AI Inference Wave Grid -->
+  <rect x="662" y="124" width="260" height="152" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <line x1="662" y1="200" x2="922" y2="200" stroke="#1f242c" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="792" y1="124" x2="792" y2="276" stroke="#1f242c" stroke-width="1" stroke-dasharray="3 3"/>
 
-  <!-- Matrix Digital Glyph Stream -->
-  <g opacity="0.3" font-family="ui-monospace, monospace" font-size="9" fill="#00ff41">
-    <text x="668" y="145">01 50k H1</text>
-    <text x="668" y="160">A4 F7 99</text>
-    <text x="668" y="175">FF 00 E2</text>
-    <text x="860" y="145">IEEE-62</text>
-    <text x="860" y="160">HI:98.4%</text>
-    <text x="860" y="175">ZNO-SAFE</text>
+  <!-- Matrix / AI Latent Embedding Tokens -->
+  <g opacity="0.35" font-family="ui-monospace, monospace" font-size="9" fill="#3fb950">
+    <text x="670" y="142">LATENT_DIM: 128</text>
+    <text x="670" y="156">FFT_H1: 1.000</text>
+    <text x="670" y="170">FFT_H3: 0.084</text>
+    <text x="840" y="142">LOSS: 0.0012</text>
+    <text x="840" y="156">F1: 99.4%</text>
+    <text x="840" y="170">VAL_ACC: 0.98</text>
   </g>
 
-  <!-- Dynamic Signal Waveform (50 kHz Leakage current wave with 3rd harmonic) -->
-  <path d="M 660 203 Q 680 148, 700 178 T 740 228 T 780 158 T 820 238 T 860 168 T 900 218 T 920 203" 
-        fill="none" stroke="#00ff41" stroke-width="2.2" filter="url(#matrix-glow)"/>
-  <path d="M 660 203 Q 680 148, 700 178 T 740 228 T 780 158 T 820 238 T 860 168 T 900 218 T 920 203" 
-        fill="none" stroke="#86efac" stroke-width="1"/>
+  <!-- AI Feature Waveform -->
+  <path d="M 662 200 Q 682 142, 702 174 T 742 226 T 782 150 T 822 236 T 862 162 T 902 216 T 922 200" 
+        fill="none" stroke="#3fb950" stroke-width="2.4" filter="url(#matrix-glow)"/>
+  <path d="M 662 200 Q 682 142, 702 174 T 742 226 T 782 150 T 822 236 T 862 162 T 902 216 T 922 200" 
+        fill="none" stroke="#aff5b4" stroke-width="1"/>
 
-  <!-- Metric Badges below oscilloscope -->
-  <text x="662" y="302" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">SAMPLING: <tspan fill="#00ff41" font-weight="700">50,000 Hz</tspan></text>
-  <text x="662" y="322" fill="#4ade80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">HEALTH INDEX (HI): <tspan fill="#00ff41" font-weight="700">98.4% [OPTIMAL]</tspan></text>
-  <text x="662" y="342" fill="#15803d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">> matrix_node: active // verified</text>
+  <!-- AI Inference Metrics -->
+  <text x="664" y="298" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">INFERENCE LATENCY: <tspan fill="#3fb950" font-weight="700">2.4 ms [EDGE]</tspan></text>
+  <text x="664" y="320" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">DEGRADATION PREDICTION: <tspan fill="#3fb950" font-weight="700">HEALTHY (HI 98.4%)</tspan></text>
+  <text x="664" y="342" fill="#56d364" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">> model status: online // validated</text>
 </svg>

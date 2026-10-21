@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-radar.py - Matrix-themed radar / spider chart generator for GitHub Profile.
-Stdlib only. Generates -dark.svg and -light.svg.
+radar.py - Matrix / GitHub-native green radar chart generator. Stdlib only.
 """
 
 from __future__ import annotations
@@ -17,14 +16,14 @@ from pathlib import Path
 
 THEMES = {
     "dark": {
-        "grid": "#143823",
-        "spoke": "#0d2818",
-        "label": "#4ade80",
-        "value": "#86efac",
-        "title": "#00ff41",
-        "fill": "#00ff41",
-        "stroke": "#00ff41",
-        "vertex": "#00ff41",
+        "grid": "#194a26",
+        "spoke": "#123019",
+        "label": "#7ee787",
+        "value": "#aff5b4",
+        "title": "#3fb950",
+        "fill": "#238636",
+        "stroke": "#3fb950",
+        "vertex": "#56d364",
         "bg": "none",
     },
     "light": {
@@ -48,7 +47,7 @@ LBL, VAL, TTL = 12, 10, 14
 def from_json(path: Path):
     d = json.loads(path.read_text(encoding="utf-8"))
     axes = [(a["label"], float(a["value"])) for a in d["axes"]]
-    return d.get("title", "SYSTEM MATRIX // RADAR"), axes
+    return d.get("title", "AI ENGINEERING // RADAR"), axes
 
 
 def _api(url, token):
@@ -90,7 +89,7 @@ def from_github(user: str, token: str | None, limit: int, exclude: set[str], cur
     top = sorted(totals.items(), key=lambda kv: -kv[1])[:limit]
     peak = top[0][1]
     axes = [(n, round(100 * (c / peak) ** curve, 1)) for n, c in top]
-    return f"MATRIX TELEMETRY // {user.upper()} CODE", axes
+    return f"CODE TELEMETRY // {user.upper()}", axes
 
 
 def ring(radius, n, start=-math.pi / 2):
@@ -205,7 +204,7 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool, an
             'keySplines="0.22 1 0.36 1" fill="freeze"/>'
         )
     parts.append(
-        f'<polygon points="{d}" fill="{c["fill"]}" fill-opacity="0.20" '
+        f'<polygon points="{d}" fill="{c["fill"]}" fill-opacity="0.22" '
         f'stroke="{c["stroke"]}" stroke-width="2.2" stroke-linejoin="round" filter="url(#matrix-glow)"/>'
     )
     for x, y in shape:

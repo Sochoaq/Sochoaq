@@ -1,11 +1,11 @@
 {
-  "title": "SYSTEM MATRIX // CORE CAPABILITIES",
+  "title": "AI ENGINEERING // CORE MATRIX",
   "axes": [
-    { "label": "Edge & Firmware", "value": 90 },
-    { "label": "Signal DSP (50kHz)", "value": 96 },
-    { "label": "Python & Data Pipelines", "value": 94 },
-    { "label": "DevOps & CI/CD", "value": 85 },
-    { "label": "Cloud (AWS)", "value": 80 },
-    { "label": "Metrology & Standards", "value": 92 }
+    { "label": "Deep Learning & PyTorch", "value": 92 },
+    { "label": "Edge AI & TinyML", "value": 94 },
+    { "label": "Signal DSP & ML Pipelines", "value": 96 },
+    { "label": "MLOps & CI/CD", "value": 88 },
+    { "label": "Cloud AI (AWS / Docker)", "value": 85 },
+    { "label": "Data Systems & Python", "value": 95 }
   ]
 }

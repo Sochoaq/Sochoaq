@@ -1,19 +1,9 @@
 <div align="center">
 
-<!-- MATRIX ANIMATED TYPING HEADER -->
+<!-- AI ENGINEERING MATRIX TYPING BANNER -->
 <a href="https://github.com/Sochoaq">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=26&amp;duration=2600&amp;pause=900&amp;color=00FF41&amp;center=true&amp;vCenter=true&amp;width=900&amp;lines=Santiago+Alejandro+%E2%80%94+Electronics+%26+DevOps+Engineer;Edge-to-Cloud+Telemetry+%7C+50+kHz+DSP+%7C+Real-Time+IoT;Docker+%E2%80%A2+CI%2FCD+GitHub+Actions+%E2%80%A2+AWS+%E2%80%A2+Python;Observability+First+%E2%80%A2+From+Physical+Sensors+to+Cloud" alt="Santiago Ochoa - Electronics &amp; DevOps Engineer">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=26&amp;duration=2600&amp;pause=900&amp;color=3FB950&amp;center=true&amp;vCenter=true&amp;width=920&amp;lines=Santiago+Alejandro+%E2%80%94+AI+%26+Edge+Intelligence+Engineer;Deep+Learning+%7C+Physical+AI+%7C+Real-Time+Signal+DSP;On-Device+TinyML+%E2%80%A2+PyTorch+%E2%80%A2+ESP32+%E2%80%A2+Python;MLOps+%E2%80%A2+CI%2FCD+Validation+%E2%80%A2+Cloud+AI+Architectures" alt="Santiago Ochoa - AI &amp; Edge Intelligence Engineer">
 </a>
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=Sochoaq&amp;style=flat&amp;color=00ff41&amp;label=system+signals" alt="system signals">
-&nbsp;
-<a href="https://www.linkedin.com/in/santiago-ochoa-quesada/">
-  <img src="https://img.shields.io/badge/node-online-00ff41?style=flat&amp;logo=matrix&amp;logoColor=black" alt="node status">
-</a>
-&nbsp;
-<img src="https://img.shields.io/badge/origin-UNAL_Colombia-059669?style=flat&amp;logoColor=white" alt="origin">
 
 </div>
 
@@ -22,7 +12,7 @@
 ## `$ ./whoami.sh`
 
 <p align="center">
-  <img src="assets/whoami-matrix.svg" width="960" alt="Matrix Terminal - Santiago Ochoa Profile Card">
+  <img src="assets/whoami-matrix.svg" width="960" alt="Matrix Terminal - Santiago Ochoa AI Profile">
 </p>
 
 ---
@@ -31,56 +21,57 @@
 
 <div align="center">
 
-<table border="1" cellpadding="14" bgcolor="#080d09" style="border: 1px solid #164e2e; border-collapse: collapse; width: 100%; max-width: 960px;">
+<table border="1" cellpadding="14" bgcolor="#161b22" style="border: 1px solid #30363d; border-collapse: collapse; width: 100%; max-width: 960px;">
   <thead>
     <tr>
-      <th colspan="2" align="left" bgcolor="#050a06" style="border-bottom: 1px solid #164e2e; color: #00ff41;">
+      <th colspan="2" align="left" bgcolor="#0d1117" style="border-bottom: 1px solid #30363d; color: #3fb950;">
         <code>sochoaq:~$ cat tech-stack.yaml</code>
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td width="50%" valign="top" style="border: 1px solid #143823;">
-        <code style="color: #4ade80;">├─ ☁ cloud_devops:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,linux,git,bash" alt="AWS, Docker, GitHub Actions, Linux, Git, Bash"><br>
-        <sub><code>AWS (EC2, S3, IAM, Lambda) · Docker · GitHub Actions · Linux SysAdmin · Bash</code></sub>
+      <td width="50%" valign="top" style="border: 1px solid #21262d;">
+        <code style="color: #7ee787;">├─ 🧠 deep_learning_applied_ai:</code><br><br>
+        <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn,python,matlab" alt="PyTorch, TensorFlow, Scikit-Learn, Python, MATLAB">
+        <img src="https://cdn.simpleicons.org/scipy/3fb950?viewbox=auto" height="48" alt="SciPy"><br>
+        <sub><code>PyTorch · TensorFlow · Scikit-Learn · Time-Series Transformers · SciPy DSP</code></sub>
       </td>
-      <td width="50%" valign="top" style="border: 1px solid #143823;">
-        <code style="color: #4ade80;">├─ ⚙ edge_embedded_firmware:</code><br><br>
+      <td width="50%" valign="top" style="border: 1px solid #21262d;">
+        <code style="color: #7ee787;">├─ ⚙ edge_physical_ai:</code><br><br>
         <img src="https://skillicons.dev/icons?i=cpp,c,arduino" alt="C++, C, Arduino">
-        <img src="https://cdn.simpleicons.org/espressif/00ff41?viewbox=auto" height="48" alt="ESP32">
-        <img src="https://cdn.simpleicons.org/kicad/86efac?viewbox=auto" height="48" alt="KiCad"><br>
-        <sub><code>ESP32 · C/C++ · High-Speed ADC (50kHz) · KiCad EDA · MQTT · LoRa</code></sub>
+        <img src="https://cdn.simpleicons.org/espressif/3fb950?viewbox=auto" height="48" alt="ESP32">
+        <img src="https://cdn.simpleicons.org/kicad/7ee787?viewbox=auto" height="48" alt="KiCad"><br>
+        <sub><code>ESP32-S3 AI Acceleration · TinyML · High-Speed ADC (50kHz) · C/C++ · FreeRTOS</code></sub>
       </td>
     </tr>
     <tr>
-      <td valign="top" style="border: 1px solid #143823;">
-        <code style="color: #4ade80;">├─ ◉ dsp_telemetry_ai:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=python,scikitlearn,tensorflow,matlab" alt="Python, Scikit-Learn, TensorFlow, MATLAB">
-        <img src="https://cdn.simpleicons.org/scipy/00ff41?viewbox=auto" height="48" alt="SciPy"><br>
-        <sub><code>SciPy · NumPy · Real-Time FFT (H1–H5) · Scikit-Learn · TensorFlow · MATLAB</code></sub>
+      <td valign="top" style="border: 1px solid #21262d;">
+        <code style="color: #7ee787;">├─ ☁ mlops_cloud_systems:</code><br><br>
+        <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,linux,git,bash" alt="AWS, Docker, GitHub Actions, Linux, Git, Bash"><br>
+        <sub><code>AWS (EC2, S3, IAM, Lambda) · Docker Containerization · GitHub Actions CI/CD · Linux</code></sub>
       </td>
-      <td valign="top" style="border: 1px solid #143823;">
-        <code style="color: #4ade80;">✦ data_pipelines_testing:</code><br><br>
-        <img src="https://skillicons.dev/icons?i=py,postgres,sqlite,pytest" alt="Python, Postgres, SQLite, Pytest">
-        <img src="https://cdn.simpleicons.org/pandas/86efac?viewbox=auto" height="48" alt="Pandas"><br>
-        <sub><code>Python 3.11 · Pytest Automated Testing · Pandas · SQL Telemetry Schemas</code></sub>
+      <td valign="top" style="border: 1px solid #21262d;">
+        <code style="color: #7ee787;">├─ ✦ data_pipelines_testing:</code><br><br>
+        <img src="https://skillicons.dev/icons?i=postgres,sqlite,pytest" alt="PostgreSQL, SQLite, Pytest">
+        <img src="https://cdn.simpleicons.org/pandas/7ee787?viewbox=auto" height="48" alt="Pandas">
+        <img src="https://cdn.simpleicons.org/numpy/3fb950?viewbox=auto" height="48" alt="NumPy"><br>
+        <sub><code>NumPy Vectorization · Pandas · Pytest Testing Suites · High-Throughput SQL Schemas</code></sub>
       </td>
     </tr>
     <tr>
-      <td colspan="2" valign="top" style="border: 1px solid #143823;">
-        <code style="color: #4ade80;">╰─ ⌁ standards_observability:</code><br><br>
+      <td colspan="2" valign="top" style="border: 1px solid #21262d;">
+        <code style="color: #7ee787;">╰─ ⌁ standards_observability:</code><br><br>
         <img src="https://skillicons.dev/icons?i=qt,vscode,github" alt="Qt, VS Code, GitHub">
-        <img src="https://cdn.simpleicons.org/prometheus/00ff41?viewbox=auto" height="48" alt="Prometheus"><br>
-        <sub><code>IEEE C62.11 · IEC 60099-5 · PyQt6 / PyQtGraph Desktop Instrumentation · Telemetry Logging</code></sub>
+        <img src="https://cdn.simpleicons.org/prometheus/3fb950?viewbox=auto" height="48" alt="Prometheus"><br>
+        <sub><code>IEEE C62.11 · IEC 60099-5 · PyQt6 / PyQtGraph Desktop Instrumentation · Real-Time Telemetry</code></sub>
       </td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td colspan="2" bgcolor="#050a06" style="border-top: 1px solid #164e2e; color: #86efac;">
-        <code>status: telemetry_nominal&nbsp;&nbsp;·&nbsp;&nbsp;sampling: 50kHz&nbsp;&nbsp;·&nbsp;&nbsp;env: production</code>
+      <td colspan="2" bgcolor="#0d1117" style="border-top: 1px solid #30363d; color: #7ee787;">
+        <code>status: inference_online&nbsp;&nbsp;·&nbsp;&nbsp;latency: 2.4ms&nbsp;&nbsp;·&nbsp;&nbsp;env: production</code>
       </td>
     </tr>
   </tfoot>
@@ -96,7 +87,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/radar-skills-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/radar-skills-light.svg">
-    <img src="assets/radar-skills-dark.svg" width="410" alt="Core Capabilities Radar">
+    <img src="assets/radar-skills-dark.svg" width="410" alt="AI Core Capabilities Radar">
   </picture>&nbsp;&nbsp;&nbsp;
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/radar-langs-dark.svg">
@@ -105,23 +96,23 @@
   </picture>
 </p>
 
-<p align="center"><sub><code>telemetry: core_capabilities_radar · github_code_mix_radar · status: healthy</code></sub></p>
+<p align="center"><sub><code>telemetry: ai_core_capabilities_radar · github_code_mix_radar · status: healthy</code></sub></p>
 
 ---
 
-## `$ ./deploy --projects`
+## `$ ./deploy --ai-projects`
 
-### ⚡ [DPS Analyzer 4.2 — Industrial Metrology &amp; Edge Signal Suite](https://github.com/Sochoaq/DPS)
-> **Full-stack telemetry and diagnostic suite for high-voltage surge arresters (DPS / ZnO).**
-* **Edge Acquisition:** Ingests high-frequency 50 kHz leakage current data from field clamps via Seeed XIAO ESP32-S3.
-* **DSP &amp; Metrology:** Real-time harmonic decomposition (FFT H1–H5), phase angle extraction ($\theta$), and analytical aging degradation index (Health Index - HI %) strictly adhering to **IEEE C62.11** &amp; **IEC 60099-5**.
-* **Cloud &amp; DevOps:** Hardened with automated **Pytest** verification suites, **Docker** containerization, and continuous integration via **GitHub Actions**.
+### ⚡ [DPS Analyzer 4.2 — Industrial Edge-AI &amp; Metrology Diagnostic Suite](https://github.com/Sochoaq/DPS)
+> **Edge-to-cloud diagnostic software and predictive AI pipeline for high-voltage surge arresters (DPS / ZnO).**
+* **Edge Ingestion:** Continuous 50 kHz high-speed leakage current acquisition from field instrumentation via Seeed XIAO ESP32-S3.
+* **DSP &amp; Feature Extraction:** Real-time harmonic decomposition (FFT H1–H5), phase angle extraction ($\theta$), and analytical aging degradation index (Health Index - HI %) strictly adhering to **IEEE C62.11** &amp; **IEC 60099-5**.
+* **MLOps &amp; Cloud:** Hardened with automated **Pytest** verification suites, **Docker** containerization, and continuous integration via **GitHub Actions**.
 * **Stack:** `Python 3.11` · `PyQt6` · `PyQtGraph` · `NumPy` · `SciPy` · `Docker` · `GitHub Actions` · `Pytest`
 
 ---
 
-### 📊 [Database-System — Logistics &amp; Data Management](https://github.com/Sochoaq/Database-System)
-> **Relational data management and logistics coordination engine built with Python &amp; SQL.**
+### 📊 [Database-System — Logistics &amp; High-Throughput Data Management](https://github.com/Sochoaq/Database-System)
+> **Relational data management and telemetry coordination engine built with Python &amp; SQL.**
 * Architectural telemetry system designed for multi-stage athletic competitions (Vuelta a Colombia).
 * Implements robust relational schemas in SQLite, transactional integrity, and responsive UI components.
 * **Stack:** `Python` · `PyQt5` · `SQLite` · `SQL`
@@ -140,14 +131,17 @@
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/santiago-ochoa-quesada/">
-  <img src="https://img.shields.io/badge/LinkedIn-00ff41?style=for-the-badge&amp;logo=linkedin&amp;logoColor=080d09" alt="LinkedIn">
+<a href="https://www.linkedin.com/in/santiago-alejandro-ochoa-quesada-a07a18288" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&amp;logo=linkedin&amp;logoColor=3fb950&amp;labelColor=161b22" alt="LinkedIn">
 </a>&nbsp;&nbsp;
 <a href="mailto:sochoaq@unal.edu.co">
-  <img src="https://img.shields.io/badge/Email_UNAL-059669?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email UNAL">
+  <img src="https://img.shields.io/badge/Email_UNAL-0d1117?style=for-the-badge&amp;logo=gmail&amp;logoColor=3fb950&amp;labelColor=161b22" alt="Email UNAL">
+</a>&nbsp;&nbsp;
+<a href="mailto:santy.alejo4@gmail.com">
+  <img src="https://img.shields.io/badge/Email_Personal-0d1117?style=for-the-badge&amp;logo=google&amp;logoColor=3fb950&amp;labelColor=161b22" alt="Email Personal">
 </a>&nbsp;&nbsp;
 <a href="https://github.com/Sochoaq">
-  <img src="https://img.shields.io/badge/GitHub-080d09?style=for-the-badge&amp;logo=github&amp;logoColor=00ff41" alt="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&amp;logo=github&amp;logoColor=3fb950&amp;labelColor=161b22" alt="GitHub">
 </a>
 
 </div>
