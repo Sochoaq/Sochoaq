@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-radar.py - Matrix / GitHub-native green radar chart generator. Stdlib only.
+radar.py - Electric / GitHub-native blue radar chart generator. Stdlib only.
 """
 
 from __future__ import annotations
@@ -16,30 +16,30 @@ from pathlib import Path
 
 THEMES = {
     "dark": {
-        "grid": "#194a26",
-        "spoke": "#123019",
-        "label": "#7ee787",
-        "value": "#aff5b4",
-        "title": "#3fb950",
-        "fill": "#238636",
-        "stroke": "#3fb950",
-        "vertex": "#56d364",
+        "grid": "#1f3a5f",
+        "spoke": "#14263e",
+        "label": "#79c0ff",
+        "value": "#a5d6ff",
+        "title": "#58a6ff",
+        "fill": "#1f6feb",
+        "stroke": "#58a6ff",
+        "vertex": "#79c0ff",
         "bg": "none",
     },
     "light": {
-        "grid": "#bbf7d0",
-        "spoke": "#86efac",
-        "label": "#14532d",
-        "value": "#166534",
-        "title": "#15803d",
-        "fill": "#16a34a",
-        "stroke": "#16a34a",
-        "vertex": "#15803d",
+        "grid": "#bfdbfe",
+        "spoke": "#93c5fd",
+        "label": "#1e40af",
+        "value": "#1d4ed8",
+        "title": "#0969da",
+        "fill": "#3b82f6",
+        "stroke": "#2563eb",
+        "vertex": "#1d4ed8",
         "bg": "none",
     },
 }
 
-UA = {"User-Agent": "radar-matrix.py"}
+UA = {"User-Agent": "radar-blue.py"}
 FONT = "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace"
 LBL, VAL, TTL = 12, 10, 14
 
@@ -160,8 +160,8 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool, an
     ]
 
     parts.append("""<defs>
-      <filter id="matrix-glow" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur stdDeviation="2" result="blur"/>
+      <filter id="blue-glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="2.2" result="blur"/>
         <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
       </filter>
     </defs>""")
@@ -172,7 +172,7 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool, an
     if title:
         parts.append(
             f'<text x="{W / 2:.1f}" y="{pad + TTL:.0f}" text-anchor="middle" '
-            f'font-size="{TTL}" font-weight="700" fill="{c["title"]}" filter="url(#matrix-glow)">'
+            f'font-size="{TTL}" font-weight="700" fill="{c["title"]}" filter="url(#blue-glow)">'
             f'{esc(title)}</text>'
         )
 
@@ -205,7 +205,7 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool, an
         )
     parts.append(
         f'<polygon points="{d}" fill="{c["fill"]}" fill-opacity="0.22" '
-        f'stroke="{c["stroke"]}" stroke-width="2.2" stroke-linejoin="round" filter="url(#matrix-glow)"/>'
+        f'stroke="{c["stroke"]}" stroke-width="2.2" stroke-linejoin="round" filter="url(#blue-glow)"/>'
     )
     for x, y in shape:
         parts.append(

@@ -1,8 +1,8 @@
 <div align="center">
 
-<!-- AI ENGINEERING MATRIX TYPING BANNER -->
+<!-- AI ENGINEERING BLUE TYPING BANNER -->
 <a href="https://github.com/Sochoaq">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=26&amp;duration=2600&amp;pause=900&amp;color=3FB950&amp;center=true&amp;vCenter=true&amp;width=920&amp;lines=Santiago+Alejandro+%E2%80%94+AI+%26+Edge+Intelligence+Engineer;Deep+Learning+%7C+Physical+AI+%7C+Real-Time+Signal+DSP;On-Device+TinyML+%E2%80%A2+PyTorch+%E2%80%A2+ESP32+%E2%80%A2+Python;MLOps+%E2%80%A2+CI%2FCD+Validation+%E2%80%A2+Cloud+AI+Architectures" alt="Santiago Ochoa - AI &amp; Edge Intelligence Engineer">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=700&amp;size=26&amp;duration=2600&amp;pause=900&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=920&amp;lines=Santiago+Alejandro+%E2%80%94+AI+%26+Edge+Intelligence+Engineer;Deep+Learning+%7C+Physical+AI+%7C+Real-Time+Signal+DSP;On-Device+TinyML+%E2%80%A2+PyTorch+%E2%80%A2+ESP32+%E2%80%A2+Python;MLOps+%E2%80%A2+CI%2FCD+Validation+%E2%80%A2+Cloud+AI+Architectures" alt="Santiago Ochoa - AI &amp; Edge Intelligence Engineer">
 </a>
 
 </div>
@@ -12,7 +12,7 @@
 ## `$ ./whoami.sh`
 
 <p align="center">
-  <img src="assets/whoami-matrix.svg" width="960" alt="Matrix Terminal - Santiago Ochoa AI Profile">
+  <img src="assets/whoami-matrix.svg" width="960" alt="Terminal - Santiago Ochoa AI Profile">
 </p>
 
 ---
@@ -21,10 +21,10 @@
 
 <div align="center">
 
-<table border="1" cellpadding="14" bgcolor="#161b22" style="border: 1px solid #30363d; border-collapse: collapse; width: 100%; max-width: 960px;">
+<table border="1" cellpadding="14" bgcolor="#161b22" style="border: 1px solid #1f6feb; border-collapse: collapse; width: 100%; max-width: 960px;">
   <thead>
     <tr>
-      <th colspan="2" align="left" bgcolor="#0d1117" style="border-bottom: 1px solid #30363d; color: #3fb950;">
+      <th colspan="2" align="left" bgcolor="#0d1117" style="border-bottom: 1px solid #1f6feb; color: #58a6ff;">
         <code>sochoaq:~$ cat tech-stack.yaml</code>
       </th>
     </tr>
@@ -32,45 +32,45 @@
   <tbody>
     <tr>
       <td width="50%" valign="top" style="border: 1px solid #21262d;">
-        <code style="color: #7ee787;">├─ 🧠 deep_learning_applied_ai:</code><br><br>
+        <code style="color: #79c0ff;">├─ 🧠 deep_learning_applied_ai:</code><br><br>
         <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn,python,matlab" alt="PyTorch, TensorFlow, Scikit-Learn, Python, MATLAB">
-        <img src="https://cdn.simpleicons.org/scipy/3fb950?viewbox=auto" height="48" alt="SciPy"><br>
+        <img src="https://cdn.simpleicons.org/scipy/58a6ff?viewbox=auto" height="48" alt="SciPy"><br>
         <sub><code>PyTorch · TensorFlow · Scikit-Learn · Time-Series Transformers · SciPy DSP</code></sub>
       </td>
       <td width="50%" valign="top" style="border: 1px solid #21262d;">
-        <code style="color: #7ee787;">├─ ⚙ edge_physical_ai:</code><br><br>
+        <code style="color: #79c0ff;">├─ ⚙ edge_physical_ai:</code><br><br>
         <img src="https://skillicons.dev/icons?i=cpp,c,arduino" alt="C++, C, Arduino">
-        <img src="https://cdn.simpleicons.org/espressif/3fb950?viewbox=auto" height="48" alt="ESP32">
-        <img src="https://cdn.simpleicons.org/kicad/7ee787?viewbox=auto" height="48" alt="KiCad"><br>
+        <img src="https://cdn.simpleicons.org/espressif/58a6ff?viewbox=auto" height="48" alt="ESP32">
+        <img src="https://cdn.simpleicons.org/kicad/79c0ff?viewbox=auto" height="48" alt="KiCad"><br>
         <sub><code>ESP32-S3 AI Acceleration · TinyML · High-Speed ADC (50kHz) · C/C++ · FreeRTOS</code></sub>
       </td>
     </tr>
     <tr>
       <td valign="top" style="border: 1px solid #21262d;">
-        <code style="color: #7ee787;">├─ ☁ mlops_cloud_systems:</code><br><br>
+        <code style="color: #79c0ff;">├─ ☁ mlops_cloud_systems:</code><br><br>
         <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,linux,git,bash" alt="AWS, Docker, GitHub Actions, Linux, Git, Bash"><br>
         <sub><code>AWS (EC2, S3, IAM, Lambda) · Docker Containerization · GitHub Actions CI/CD · Linux</code></sub>
       </td>
       <td valign="top" style="border: 1px solid #21262d;">
-        <code style="color: #7ee787;">├─ ✦ data_pipelines_testing:</code><br><br>
+        <code style="color: #79c0ff;">├─ ✦ data_pipelines_testing:</code><br><br>
         <img src="https://skillicons.dev/icons?i=postgres,sqlite,pytest" alt="PostgreSQL, SQLite, Pytest">
-        <img src="https://cdn.simpleicons.org/pandas/7ee787?viewbox=auto" height="48" alt="Pandas">
-        <img src="https://cdn.simpleicons.org/numpy/3fb950?viewbox=auto" height="48" alt="NumPy"><br>
+        <img src="https://cdn.simpleicons.org/pandas/79c0ff?viewbox=auto" height="48" alt="Pandas">
+        <img src="https://cdn.simpleicons.org/numpy/58a6ff?viewbox=auto" height="48" alt="NumPy"><br>
         <sub><code>NumPy Vectorization · Pandas · Pytest Testing Suites · High-Throughput SQL Schemas</code></sub>
       </td>
     </tr>
     <tr>
       <td colspan="2" valign="top" style="border: 1px solid #21262d;">
-        <code style="color: #7ee787;">╰─ ⌁ standards_observability:</code><br><br>
+        <code style="color: #79c0ff;">╰─ ⌁ standards_observability:</code><br><br>
         <img src="https://skillicons.dev/icons?i=qt,vscode,github" alt="Qt, VS Code, GitHub">
-        <img src="https://cdn.simpleicons.org/prometheus/3fb950?viewbox=auto" height="48" alt="Prometheus"><br>
+        <img src="https://cdn.simpleicons.org/prometheus/58a6ff?viewbox=auto" height="48" alt="Prometheus"><br>
         <sub><code>IEEE C62.11 · IEC 60099-5 · PyQt6 / PyQtGraph Desktop Instrumentation · Real-Time Telemetry</code></sub>
       </td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td colspan="2" bgcolor="#0d1117" style="border-top: 1px solid #30363d; color: #7ee787;">
+      <td colspan="2" bgcolor="#0d1117" style="border-top: 1px solid #1f6feb; color: #a5d6ff;">
         <code>status: inference_online&nbsp;&nbsp;·&nbsp;&nbsp;latency: 2.4ms&nbsp;&nbsp;·&nbsp;&nbsp;env: production</code>
       </td>
     </tr>
@@ -81,7 +81,7 @@
 
 ---
 
-## `$ matrix-signals --radar`
+## `$ telemetry-signals --radar`
 
 <p align="center">
   <picture>
@@ -132,16 +132,16 @@
 <div align="center">
 
 <a href="https://www.linkedin.com/in/santiago-alejandro-ochoa-quesada-a07a18288" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&amp;logo=linkedin&amp;logoColor=3fb950&amp;labelColor=161b22" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&amp;logo=linkedin&amp;logoColor=58a6ff&amp;labelColor=161b22" alt="LinkedIn">
 </a>&nbsp;&nbsp;
 <a href="mailto:sochoaq@unal.edu.co">
-  <img src="https://img.shields.io/badge/Email_UNAL-0d1117?style=for-the-badge&amp;logo=gmail&amp;logoColor=3fb950&amp;labelColor=161b22" alt="Email UNAL">
+  <img src="https://img.shields.io/badge/Email_UNAL-0d1117?style=for-the-badge&amp;logo=gmail&amp;logoColor=58a6ff&amp;labelColor=161b22" alt="Email UNAL">
 </a>&nbsp;&nbsp;
 <a href="mailto:santy.alejo4@gmail.com">
-  <img src="https://img.shields.io/badge/Email_Personal-0d1117?style=for-the-badge&amp;logo=google&amp;logoColor=3fb950&amp;labelColor=161b22" alt="Email Personal">
+  <img src="https://img.shields.io/badge/Email_Personal-0d1117?style=for-the-badge&amp;logo=google&amp;logoColor=58a6ff&amp;labelColor=161b22" alt="Email Personal">
 </a>&nbsp;&nbsp;
 <a href="https://github.com/Sochoaq">
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&amp;logo=github&amp;logoColor=3fb950&amp;labelColor=161b22" alt="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&amp;logo=github&amp;logoColor=58a6ff&amp;labelColor=161b22" alt="GitHub">
 </a>
 
 </div>
