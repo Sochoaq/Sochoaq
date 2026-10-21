@@ -167,18 +167,23 @@ def floyd_steinberg(gray: np.ndarray) -> np.ndarray:
 
 
 def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
-    source = Image.open(SOURCE).convert("RGB")
+    source = Image.open(SOURCE).convert("RGBA")
     crop = source.resize((300, 340), Image.Resampling.LANCZOS)
+    alpha = np.asarray(crop.getchannel("A"), dtype=np.float32) / 255.0
 
     if theme == "dark":
-        prepared = ImageOps.grayscale(crop)
+        bg = Image.new("RGBA", crop.size, "black")
+        bg.alpha_composite(crop)
+        prepared = ImageOps.grayscale(bg.convert("RGB"))
         prepared = ImageOps.autocontrast(prepared, cutoff=1)
         prepared = ImageEnhance.Contrast(prepared).enhance(1.4)
         prepared = ImageEnhance.Brightness(prepared).enhance(1.1)
         prepared = prepared.filter(ImageFilter.UnsharpMask(radius=2.0, percent=160, threshold=1))
         select_lit = True
     else:
-        prepared = ImageOps.grayscale(crop)
+        bg = Image.new("RGBA", crop.size, "white")
+        bg.alpha_composite(crop)
+        prepared = ImageOps.grayscale(bg.convert("RGB"))
         prepared = ImageOps.autocontrast(prepared, cutoff=1)
         prepared = ImageEnhance.Contrast(prepared).enhance(1.25)
         prepared = ImageEnhance.Brightness(prepared).enhance(1.05)
@@ -187,6 +192,7 @@ def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
 
     bits = floyd_steinberg(np.asarray(prepared))
     active = bits if select_lit else ~bits
+    active &= alpha > 0.15
 
     ys, xs = np.where(active)
     if len(xs) == 0:
