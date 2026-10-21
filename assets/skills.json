@@ -1,0 +1,11 @@
+{
+  "title": "SYSTEM MATRIX // CORE CAPABILITIES",
+  "axes": [
+    { "label": "Edge & Firmware", "value": 90 },
+    { "label": "Signal DSP (50kHz)", "value": 96 },
+    { "label": "Python & Data Pipelines", "value": 94 },
+    { "label": "DevOps & CI/CD", "value": 85 },
+    { "label": "Cloud (AWS)", "value": 80 },
+    { "label": "Metrology & Standards", "value": 92 }
+  ]
+}
