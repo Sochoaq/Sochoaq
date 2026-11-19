@@ -3,15 +3,15 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-dark.svg" width="960" alt="Santiago Alejandro Ochoa Quesada — Electronics &amp; AI Systems Engineer">
+  <img src="assets/banner-dark.svg" width="960" alt="Santiago Alejandro Ochoa Quesada — AI Systems &amp; MLOps Engineer">
 </picture>
 
 </div>
 
 # Santiago Alejandro Ochoa Quesada
 
-**Electronics & AI Systems Engineer** · Universidad Nacional de Colombia (`UNAL`) · Bogotá, Colombia  
-High-Voltage Instrumentation · Mixed-Signal & Embedded Systems · Edge DSP · Predictive Analytics
+**AI Systems & MLOps Engineer · Electronics & Computer Systems** · Universidad Nacional de Colombia (`UNAL`) · Bogotá, Colombia  
+Multi-Agent LLM Orchestration · Deep Learning & Time-Series ML · Production MLOps · Domain-Guarded Edge AI
 
 ---
 
@@ -19,22 +19,30 @@ High-Voltage Instrumentation · Mixed-Signal & Embedded Systems · Edge DSP · P
 
 | Domain | Stack, Methodologies & Standards |
 | :--- | :--- |
-| **Signal Processing & Applied AI** | `Python` · `NumPy` · `SciPy` · `PyTorch` · `Scikit-Learn` · Least-Squares Harmonic Fitting · Zero-Phase Digital Filtering (`Savitzky-Golay`, `Butterworth`) · Predictive Degradation Modeling (`IEC 60099-5`) |
-| **Mixed-Signal Hardware & Embedded** | `KiCad` · `EasyEDA Pro` · Zero-Drift Transimpedance Analog Front-Ends (`OPA2388`/`OPA4388`) · Active Sallen-Key Filtering · `ESP32-S3` / `ESP32-C3` (`BLE`, `Wi-Fi`, `LoRa`) · `Verilog HDL` (`Zybo Z7-10 FPGA`) |
-| **Mobile, Desktop & Full-Stack Systems** | `Flutter` / `Dart` (Offline-First Architecture, Real-Time Oscillography, On-Device Voice/AI Copilot) · `PyQt5` / `PyQt6` · `Next.js` · `TypeScript` · `Angular` · `Node.js` |
-| **Cloud, Data & Verification** | `Supabase` / `PostgreSQL` · `SQLite` · `Docker` · `AWS` (`EC2`, `S3`, `IAM`) · `Pytest` · `Flutter Test` · `GitHub Actions CI/CD` |
+| **Multi-Agent AI & LLM Orchestration** | `Python` · `Google GenAI / Gemini SDK` · `Anthropic Claude SDK` · `Pydantic` Structured Outputs · Drafter-Reviewer Agent Pipelines · Prompt-Injection Sanitization Guards · Local `RAG` & Tool-Calling Voice Copilots |
+| **Machine Learning, Deep Learning & Signal AI** | `PyTorch` · `Scikit-Learn` · `NumPy` · `SciPy` · Time-Series Degradation Modeling · Spectral Feature Extraction (`FFT` / Least-Squares Harmonic Fitting) · Zero-Phase Digital Filtering (`Savitzky-Golay`, `Butterworth`) |
+| **MLOps, Cloud & Production Verification** | `Docker` · `GitHub Actions CI/CD` · `AWS` (`EC2`, `S3`, `IAM`, `Lambda`) · `Supabase` / `PostgreSQL` · `SQLite` · `Pytest` · Automated Layout & Security Gates |
+| **Edge AI, Mobile & Mixed-Signal Hardware** | `Flutter` / `Dart` (Offline-First Architecture, On-Device Neural Voice/NLU Copilot) · `ESP32-S3` / `ESP32-C3` (`BLE`, `Wi-Fi`, `LoRa`) · `C/C++` · `Verilog HDL` (`Zybo Z7-10 FPGA`) · Zero-Drift Analog Front-Ends (`OPA2388`/`OPA4388`) |
 
 ---
 
-## Selected Engineering Systems
+## Selected AI & Production Systems
 
-### High-Voltage Surge Arrester Diagnostic Ecosystem *(Proprietary Industrial Architecture)*
+### [Autonomous Multi-Agent LLM Orchestration & Document Synthesis Engine (`ai-job-hunter`)](https://github.com/Sochoaq/ai-job-hunter)
 
-End-to-end instrumentation, hardware, edge firmware, mobile acquisition, and cloud analytics platform for non-invasive condition monitoring of Metal-Oxide Surge Arresters (`MOSA`) in live substations. *(Source repositories remain private; technical architecture summarized below.)*
+Production-hardened multi-agent framework built on `Python`, **Google GenAI SDK**, and **Claude Code** subagents for semantic role routing, structured evaluation, and automated LaTeX/PDF synthesis.
 
-* **Mixed-Signal Analog Front-End & Embedded Telemetry:** Engineered a zero-drift transimpedance preamplifier stage (`OPA2388`/`OPA4388`) with an ultra-low-noise regulated negative supply (`LM27761`), solid-state autorange switching (`TS5A3159`), 4th-order Butterworth anti-aliasing filter, frequency-domain stability simulation in Python, and deterministic `ESP32-S3` `BLE` acquisition firmware.
-* **Offline-First Field Mobile Client:** Developed a `Flutter` / `Dart` application implementing a real-time DSP pipeline (median despiking, adaptive Savitzky-Golay, zero-phase 4th-order Butterworth filtering, harmonic magnitude extraction), resilient `Supabase` synchronization, and an offline domain-bounded AI & neural voice copilot.
-* **Desktop Metrology & Predictive Analytics Suite:** Architected automated sensor calibration workflows, spectral decomposition suites, machine learning health indexing pipelines, and automated verification (`Pytest`, `Docker`, `GitHub Actions`).
+* **Multi-Agent Pipeline & Structured Reasoning:** Orchestrates specialized evaluator (`FitAnalysis`) and drafter-reviewer agents (`TailoredApplication`) via `Pydantic` schema enforcement, exponential backoff resilience, CEFR language-gate logic, and multi-track semantic classification (`AI_ENGINEERING`, `CLOUD_DEVOPS`, `HARDWARE_EMBEDDED`).
+* **Prompt-Injection Defense & Supply-Chain Security:** Enforces deterministic sanitization gates (`posting_guard.py`) against hidden HTML, invisible CSS boxes, Unicode tag characters, and injection payloads on untrusted web postings, paired with AST/allowlist verification (`security_guards.py`).
+* **Dual-Engine Compilation & State Analytics:** Synthesizes 2-page `Tectonic`/`LaTeX` + `TikZ` documents with automatic `PyMuPDF` fallback, ATS text-layer verification (`verify_pdf.py`, `verify_layout.py`), and `SQLite` state persistence with self-contained HTML/CSV reporting.
+
+### Industrial Predictive AI, Domain-Guarded Voice Copilot & Edge DSP Platform *(Proprietary Production Ecosystem)*
+
+End-to-end applied AI, edge DSP acquisition, mobile offline-first intelligence, and cloud MLOps ecosystem engineered for real-time industrial telemetry and automated anomaly diagnostics. *(Core industrial repositories remain private; AI & software architecture summarized below.)*
+
+* **Domain-Guarded Conversational & Neural Voice Copilot:** Engineered an offline-capable `Flutter` / `Dart` assistant with deterministic safety guardrails, structured tool-calling, local `RAG` grounded in technical telemetry, and hands-free neural TTS/STT synthesis.
+* **Predictive Time-Series ML & MLOps Pipeline:** Built automated multi-variable health-indexing and degradation modeling workflows backed by zero-phase DSP feature extraction (median despiking, adaptive Savitzky-Golay, 4th-order Butterworth, least-squares harmonic decomposition), containerized with `Docker` and verified via `Pytest` and `GitHub Actions CI/CD`.
+* **Edge Telemetry & Mixed-Signal Acquisition:** Designed low-noise zero-drift transimpedance hardware and `ESP32-S3` `BLE` streaming firmware feeding synchronized time-series telemetry into `Supabase` / `PostgreSQL`.
 
 ---
 
@@ -42,6 +50,7 @@ End-to-end instrumentation, hardware, edge firmware, mobile acquisition, and clo
 
 | System | Scope & Architecture | Core Stack |
 | :--- | :--- | :--- |
+| **[Multi-Agent LLM Orchestrator (`ai-job-hunter`)](https://github.com/Sochoaq/ai-job-hunter)** | Autonomous multi-agent evaluation, prompt-injection sanitization guards, semantic routing, and dual-engine `LaTeX`/`PyMuPDF` synthesis with `SQLite` analytics. | `Python` · `Gemini/Claude SDK` · `Pydantic` · `SQLite` |
 | **[Circadian Dosimetry Wearable (`light-well`)](https://github.com/Sochoaq/light-well)** | Embedded wearable for spectral light dosimetry using multispectral and ambient lux sensors with `Wi-Fi`/`I2C` telemetry. | `C++` · `ESP32-C3` · `AS7262` · `BH1750` |
 | **[Long-Range RF Telemetry (`Proyecto-Antenas`)](https://github.com/Sochoaq/Proyecto-Antenas)** | Field environmental telemetry link utilizing `LoRa` transceivers, directional `Yagi-Uda` antennas, and `ESP32` nodes. | `ESP32` · `LoRa` · `RF Design` · `C++` |
 | **[Competitive Logistics Engine (`Database-System`)](https://github.com/Sochoaq/Database-System)** | Operational data management desktop platform for multi-stage cycling logistics (*Vuelta a Colombia*) with transactional schemas. | `Python` · `PyQt5` · `SQLite` · `SQL` |
