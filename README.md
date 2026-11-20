@@ -30,11 +30,11 @@ Multi-Agent LLM Orchestration · Deep Learning & Time-Series ML · Production ML
 
 ### [Aegis Agent Mesh — Multi-Agent Incident Triage & LLMOps Guardrail Engine (`aegis-agent-mesh`)](https://github.com/Sochoaq/aegis-agent-mesh)
 
-End-to-end multi-agent incident response, hybrid retrieval, and deterministic safety governance architecture engineered in `Python`, `Pydantic v2`, `SQLite`, and `Docker`.
+End-to-end **5-agent** self-reflective incident response, hybrid retrieval, and deterministic safety governance architecture engineered in `Python`, `Pydantic v2`, `SQLite`, and `Docker`.
 
-* **4-Agent State Graph:** Orchestrates `TelemetryAnomalyAgent` (Z-score spike detection + EWMA drift), `RunbookRAGAgent` (Hybrid **BM25 + TF-IDF Cosine** retriever fused via **Reciprocal Rank Fusion**), `RootCauseArchitectAgent` (Gemini SDK / deterministic structured synthesis), and `PolicyGuardrailAgent`.
-* **LLMOps Safety & Prompt-Injection Defense:** Detects indirect prompt injections hidden in untrusted telemetry/log streams (including Unicode Tag characters and RCE/SQL payloads), enforces mandatory `[RB-xxx]` citation grounding, and gates `HIGH`/`CRITICAL` blast-radius tool calls behind operator sign-off.
-* **Verified Evaluation Suite & Observability:** Includes a 12-scenario golden + red-team benchmark suite (`100.0%` top-1 runbook recall, citation grounding, and adversarial block rate), HTTP JSON API, SQLite audit ledger, and GitHub Actions CI.
+* **5-Agent Self-Reflective State Graph & Episodic Memory:** Orchestrates `TelemetryAnomalyAgent` (Z-score spike detection + EWMA drift), `RunbookRAGAgent` (Hybrid **BM25 + TF-IDF Cosine** retriever fused via **Reciprocal Rank Fusion**), `CriticReflectionAgent` (selective confidence gating + domain query rewriting), **SQLite Episodic Memory** (poison-resistant historical similarity search), `RootCauseArchitectAgent`, and `PolicyGuardrailAgent`.
+* **LLMOps Safety & Prompt-Injection Defense:** Detects indirect prompt injections hidden in untrusted telemetry/log streams (Unicode Tag characters, zero-width steganography, SQL/RCE payloads), enforces mandatory `[RB-xxx]` citation grounding, and gates `HIGH`/`CRITICAL` blast-radius tool calls behind operator sign-off.
+* **Interactive Web Console, OpenAPI 3.1 & Benchmark Suite:** Serves a real-time multi-agent browser console (`GET /`, `/openapi.json`, `POST /v1/incidents/triage`) alongside a 15-scenario golden + red-team benchmark (`100.0%` top-1 runbook recall, citation grounding, and adversarial block rate) and GitHub Actions CI.
 
 ### [Autonomous Multi-Agent LLM Orchestration & Document Synthesis Engine (`ai-job-hunter`)](https://github.com/Sochoaq/ai-job-hunter)
 
@@ -58,7 +58,7 @@ End-to-end applied AI, edge DSP acquisition, mobile offline-first intelligence, 
 
 | System | Scope & Architecture | Core Stack |
 | :--- | :--- | :--- |
-| **[Multi-Agent LLMOps Guardrail Engine (`aegis-agent-mesh`)](https://github.com/Sochoaq/aegis-agent-mesh)** | 4-agent incident triage state graph with Hybrid BM25 + Cosine RRF-RAG, indirect prompt-injection defense, blast-radius governance, SQLite ledger, and 12-scenario evals. | `Python` · `Pydantic v2` · `RRF-RAG` · `SQLite` · `Docker` |
+| **[Multi-Agent LLMOps Guardrail Engine (`aegis-agent-mesh`)](https://github.com/Sochoaq/aegis-agent-mesh)** | 5-agent self-reflective state graph with Hybrid BM25+Cosine RRF-RAG, Critic query rewriting, SQLite Episodic Memory, Interactive Console & OpenAPI 3.1, and 15-scenario evals. | `Python` · `Pydantic v2` · `RRF-RAG` · `SQLite` · `Docker` |
 | **[Multi-Agent LLM Orchestrator (`ai-job-hunter`)](https://github.com/Sochoaq/ai-job-hunter)** | Autonomous multi-agent evaluation, prompt-injection sanitization guards, semantic routing, and dual-engine `LaTeX`/`PyMuPDF` synthesis with `SQLite` analytics. | `Python` · `Gemini/Claude SDK` · `Pydantic` · `SQLite` |
 | **[Circadian Photometry & ML Platform (`light-well`)](https://github.com/Sochoaq/light-well)** | ESP32-C3 multispectral CIE 1931 / mEDI edge engine, Tuya HMAC-SHA256 actuation, Supabase telemetry, and Python spectral regime classifier (`100%` 5-fold CV). | `Python` · `C++` · `ESP32-C3` · `Supabase` |
 | **[Long-Range RF Telemetry (`Proyecto-Antenas`)](https://github.com/Sochoaq/Proyecto-Antenas)** | Field environmental telemetry link utilizing `LoRa` transceivers, directional `Yagi-Uda` antennas, and `ESP32` nodes. | `ESP32` · `LoRa` · `RF Design` · `C++` |
