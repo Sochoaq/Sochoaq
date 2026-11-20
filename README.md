@@ -28,6 +28,14 @@ Multi-Agent LLM Orchestration · Deep Learning & Time-Series ML · Production ML
 
 ## Selected AI & Production Systems
 
+### [Aegis Agent Mesh — Multi-Agent Incident Triage & LLMOps Guardrail Engine (`aegis-agent-mesh`)](https://github.com/Sochoaq/aegis-agent-mesh)
+
+End-to-end multi-agent incident response, hybrid retrieval, and deterministic safety governance architecture engineered in `Python`, `Pydantic v2`, `SQLite`, and `Docker`.
+
+* **4-Agent State Graph:** Orchestrates `TelemetryAnomalyAgent` (Z-score spike detection + EWMA drift), `RunbookRAGAgent` (Hybrid **BM25 + TF-IDF Cosine** retriever fused via **Reciprocal Rank Fusion**), `RootCauseArchitectAgent` (Gemini SDK / deterministic structured synthesis), and `PolicyGuardrailAgent`.
+* **LLMOps Safety & Prompt-Injection Defense:** Detects indirect prompt injections hidden in untrusted telemetry/log streams (including Unicode Tag characters and RCE/SQL payloads), enforces mandatory `[RB-xxx]` citation grounding, and gates `HIGH`/`CRITICAL` blast-radius tool calls behind operator sign-off.
+* **Verified Evaluation Suite & Observability:** Includes a 12-scenario golden + red-team benchmark suite (`100.0%` top-1 runbook recall, citation grounding, and adversarial block rate), HTTP JSON API, SQLite audit ledger, and GitHub Actions CI.
+
 ### [Autonomous Multi-Agent LLM Orchestration & Document Synthesis Engine (`ai-job-hunter`)](https://github.com/Sochoaq/ai-job-hunter)
 
 Production-hardened multi-agent framework built on `Python`, **Google GenAI SDK**, and **Claude Code** subagents for semantic role routing, structured evaluation, and automated LaTeX/PDF synthesis.
@@ -50,8 +58,9 @@ End-to-end applied AI, edge DSP acquisition, mobile offline-first intelligence, 
 
 | System | Scope & Architecture | Core Stack |
 | :--- | :--- | :--- |
+| **[Multi-Agent LLMOps Guardrail Engine (`aegis-agent-mesh`)](https://github.com/Sochoaq/aegis-agent-mesh)** | 4-agent incident triage state graph with Hybrid BM25 + Cosine RRF-RAG, indirect prompt-injection defense, blast-radius governance, SQLite ledger, and 12-scenario evals. | `Python` · `Pydantic v2` · `RRF-RAG` · `SQLite` · `Docker` |
 | **[Multi-Agent LLM Orchestrator (`ai-job-hunter`)](https://github.com/Sochoaq/ai-job-hunter)** | Autonomous multi-agent evaluation, prompt-injection sanitization guards, semantic routing, and dual-engine `LaTeX`/`PyMuPDF` synthesis with `SQLite` analytics. | `Python` · `Gemini/Claude SDK` · `Pydantic` · `SQLite` |
-| **[Circadian Dosimetry Wearable (`light-well`)](https://github.com/Sochoaq/light-well)** | Embedded wearable for spectral light dosimetry using multispectral and ambient lux sensors with `Wi-Fi`/`I2C` telemetry. | `C++` · `ESP32-C3` · `AS7262` · `BH1750` |
+| **[Circadian Photometry & ML Platform (`light-well`)](https://github.com/Sochoaq/light-well)** | ESP32-C3 multispectral CIE 1931 / mEDI edge engine, Tuya HMAC-SHA256 actuation, Supabase telemetry, and Python spectral regime classifier (`100%` 5-fold CV). | `Python` · `C++` · `ESP32-C3` · `Supabase` |
 | **[Long-Range RF Telemetry (`Proyecto-Antenas`)](https://github.com/Sochoaq/Proyecto-Antenas)** | Field environmental telemetry link utilizing `LoRa` transceivers, directional `Yagi-Uda` antennas, and `ESP32` nodes. | `ESP32` · `LoRa` · `RF Design` · `C++` |
 | **[Competitive Logistics Engine (`Database-System`)](https://github.com/Sochoaq/Database-System)** | Operational data management desktop platform for multi-stage cycling logistics (*Vuelta a Colombia*) with transactional schemas. | `Python` · `PyQt5` · `SQLite` · `SQL` |
 | **[Project Management Platform (`project-manager`)](https://github.com/Sochoaq/project-manager)** | Full-stack planning and milestone tracking web platform structured with separate REST API and SPA layers. | `Angular` · `Node.js` · `Express` |
